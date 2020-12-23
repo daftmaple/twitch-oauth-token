@@ -1,0 +1,13 @@
+{
+  "clientId": "insert client id here",
+  "clientSecret": "insert client secret here",
+  "scopes": [
+    'chat:read',
+    'chat:edit',
+    'channel:moderate',
+    'whispers:read',
+    'whispers:edit',
+    'channel_editor',
+  ],
+  "port": 9000
+}
