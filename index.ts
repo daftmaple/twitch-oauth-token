@@ -2,7 +2,6 @@ import express from 'express';
 import http from 'http';
 import appendQuery from 'append-query';
 import qs from 'qs';
-import fetch from 'node-fetch';
 import fs from 'fs';
 
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
